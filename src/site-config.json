@@ -1,0 +1,636 @@
+{
+  "business": {
+    "name": "Horizon Chiropractor",
+    "phone": "555-chi-r90",
+    "category": "chiropractor",
+    "city": "Boulder",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "chiropractor-trust-navy",
+      "categoryGroup": "chiropractor",
+      "name": "Trust Navy",
+      "recipeFile": "chiropractor/trust-navy.astro",
+      "colors": {
+        "primary": "#059669",
+        "primaryDark": "#064E3B",
+        "primaryLight": "#c1e5da",
+        "secondary": "#048059",
+        "accent": "#10B981",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#059669",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Nunito Sans",
+        "headingWeight": "700",
+        "bodyFont": "Lato",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "chiropractor/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Boulder's Trusted Chiropractic Care",
+      "heroSubline": "Horizon Chiropractor provides personalized care to help you move freely again. Serving Boulder and surrounding communities with evidence-based treatments.",
+      "aboutTitle": "Our Story in Boulder",
+      "aboutText": [
+        "Founded in 2012, Horizon Chiropractor grew from a small practice near Pearl Street to become Boulder County's most trusted chiropractic clinic. Our team understands the active lifestyle of our community and the specific demands it places on your body.",
+        "We combine advanced techniques with a holistic approach, addressing not just symptoms but underlying causes. Every treatment plan is tailored to your unique needs and goals.",
+        "As proud members of the Boulder community, we support local athletes, outdoor enthusiasts, and families through sponsorships and free workshops at the Boulder Public Library."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand how Boulder's altitude, outdoor activities, and lifestyle impact spinal health."
+        },
+        {
+          "title": "Personalized Care",
+          "description": "No two treatment plans are alike - we listen first, then create solutions specific to your needs."
+        },
+        {
+          "title": "Proven Results",
+          "description": "Our patients report significant improvement in mobility and pain reduction within weeks."
+        },
+        {
+          "title": "Preventive Approach",
+          "description": "We focus on long-term wellness, not just temporary relief from discomfort."
+        }
+      ],
+      "ctaHeadline": "Start Your Pain-Free Journey Today",
+      "ctaSubline": "Schedule your initial consultation and experience the Horizon difference."
+    },
+    "services": [
+      {
+        "slug": "spinal-adjustments",
+        "name": "Spinal Adjustments",
+        "shortDescription": "Precise manual adjustments to restore proper alignment and relieve pressure on nerves.",
+        "description": "Our spinal adjustment techniques are tailored to Boulder residents' active lifestyles. Whether you're a trail runner dealing with impact stress or an office worker experiencing posture strain from long hours at your desk, we use gentle, controlled force to correct misalignments.\n\nWe specialize in diversified technique, the most widely used chiropractic method, which allows us to address specific vertebral issues. For patients preferring lighter approaches, we also offer activator methods. Many Boulder patients find regular adjustments help them maintain peak performance for skiing, climbing, and cycling.",
+        "process": [
+          "Step 1: Comprehensive evaluation of spinal alignment and mobility",
+          "Step 2: Identification of specific vertebral subluxations",
+          "Step 3: Manual adjustment using precise, controlled force",
+          "Step 4: Post-adjustment assessment and home care recommendations"
+        ],
+        "benefits": [
+          "Reduces nerve irritation",
+          "Improves range of motion",
+          "Decreases muscle tension",
+          "Enhances overall body function"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get adjusted?",
+            "answer": "Frequency depends on your condition and lifestyle. Active Boulder residents often benefit from weekly or bi-weekly sessions initially, transitioning to maintenance care."
+          },
+          {
+            "question": "Do adjustments hurt?",
+            "answer": "Most patients experience relief immediately. You may hear popping sounds as gas releases from joints, but discomfort is minimal."
+          },
+          {
+            "question": "Can adjustments help with headaches?",
+            "answer": "Yes, many tension headaches originate from cervical spine issues we can effectively address."
+          }
+        ]
+      },
+      {
+        "slug": "sports-injury-rehab",
+        "name": "Sports Injury Rehabilitation",
+        "shortDescription": "Specialized care for athletes recovering from injuries or looking to prevent them.",
+        "description": "Boulder's outdoor culture means we see many sports-related injuries from running, climbing, cycling, and skiing. Our sports rehab program combines chiropractic care with therapeutic exercises to help you recover stronger.\n\nWe work closely with local physical therapists and trainers to create comprehensive recovery plans. For trail runners dealing with IT band syndrome or climbers with shoulder impingement, we address both the injury and the biomechanical factors that contributed to it. Our office is equipped with rehabilitation tools to complement adjustments and help you return to your favorite Boulder trails safely.",
+        "process": [
+          "Step 1: Injury assessment and movement analysis",
+          "Step 2: Development of personalized treatment plan",
+          "Step 3: Chiropractic adjustments combined with rehab exercises",
+          "Step 4: Progressive return-to-activity guidance"
+        ],
+        "benefits": [
+          "Faster recovery from sports injuries",
+          "Improved athletic performance",
+          "Reduced risk of re-injury",
+          "Better understanding of body mechanics"
+        ],
+        "faq": [
+          {
+            "question": "Can chiropractic care prevent sports injuries?",
+            "answer": "Regular care improves joint mobility and body awareness, significantly reducing injury risk for active individuals."
+          },
+          {
+            "question": "How soon after an injury should I come in?",
+            "answer": "We recommend evaluation within 24-48 hours for acute injuries to begin proper healing immediately."
+          },
+          {
+            "question": "Do you work with competitive athletes?",
+            "answer": "Yes, we've treated Boulder Marathon participants, professional climbers, and collegiate athletes from CU."
+          }
+        ]
+      },
+      {
+        "slug": "prenatal-chiropractic",
+        "name": "Prenatal Chiropractic",
+        "shortDescription": "Gentle care designed specifically for expecting mothers' changing needs.",
+        "description": "Pregnancy creates significant changes in a woman's posture and center of gravity. Our Webster-certified practitioners provide safe, effective care for Boulder moms-to-be experiencing back pain, sciatica, or pelvic discomfort.\n\nWe use specialized techniques and pregnancy pillows to ensure comfort during treatment. Regular prenatal chiropractic care can help prepare the pelvis for labor and may reduce delivery time. Many of our patients from Boulder's family neighborhoods like Mapleton Hill continue care postpartum to address nursing posture and lifting strain from caring for newborns.",
+        "process": [
+          "Step 1: Assessment of postural changes and discomfort areas",
+          "Step 2: Gentle adjustments using pregnancy-appropriate techniques",
+          "Step 3: Pelvic alignment evaluation",
+          "Step 4: Home care recommendations for comfort"
+        ],
+        "benefits": [
+          "Reduces pregnancy-related back pain",
+          "May facilitate easier labor",
+          "Helps maintain mobility during pregnancy",
+          "Addresses postural strain from weight changes"
+        ],
+        "faq": [
+          {
+            "question": "Is chiropractic safe during pregnancy?",
+            "answer": "Absolutely. We use specialized techniques and avoid any pressure on the abdomen. Many OB/GYNs in Boulder refer patients to us."
+          },
+          {
+            "question": "When should I start prenatal chiropractic care?",
+            "answer": "Anytime during pregnancy is beneficial, but starting in the second trimester helps prevent discomfort before it begins."
+          },
+          {
+            "question": "Can it help with breech positioning?",
+            "answer": "The Webster technique specifically addresses pelvic alignment and may help create optimal fetal positioning."
+          }
+        ]
+      },
+      {
+        "slug": "posture-correction",
+        "name": "Posture Correction",
+        "shortDescription": "Solutions for tech neck, desk slump, and other modern posture problems.",
+        "description": "Between Boulder's tech workers and students, poor posture from prolonged sitting and device use is increasingly common. Our posture correction program goes beyond reminders to \"sit up straight\" - we identify and address the structural causes of poor posture.\n\nUsing a combination of adjustments, muscle release techniques, and customized exercises, we help retrain your body's alignment. For patients in Boulder's coworking spaces or CU students spending hours studying, we create practical strategies to integrate posture awareness into daily life. Many patients find relief from associated headaches, shoulder tension, and fatigue after just a few sessions.",
+        "process": [
+          "Step 1: Comprehensive posture analysis",
+          "Step 2: Identification of muscular imbalances",
+          "Step 3: Spinal adjustments and soft tissue work",
+          "Step 4: Personalized corrective exercise program"
+        ],
+        "benefits": [
+          "Reduces neck and shoulder pain",
+          "Improves breathing capacity",
+          "Enhances energy levels",
+          "Prevents long-term spinal degeneration"
+        ],
+        "faq": [
+          {
+            "question": "How long does posture correction take?",
+            "answer": "Most patients notice improvement within weeks, but lasting change typically requires 3-6 months of consistent care."
+          },
+          {
+            "question": "Will exercises alone fix my posture?",
+            "answer": "Exercises help, but spinal restrictions often need to be addressed first for lasting improvement."
+          },
+          {
+            "question": "Can poor posture cause other health issues?",
+            "answer": "Yes, chronic poor posture can lead to headaches, digestive issues, and reduced lung capacity over time."
+          }
+        ]
+      },
+      {
+        "slug": "pediatric-chiropractic",
+        "name": "Pediatric Chiropractic",
+        "shortDescription": "Gentle care for children's developing nervous systems and musculoskeletal health.",
+        "description": "From birth through adolescence, children's bodies undergo rapid changes that can benefit from chiropractic care. Our pediatric techniques are extremely gentle - about the pressure you'd use to test a ripe tomato. We commonly see Boulder children for issues like colic, breastfeeding difficulties, growing pains, and sports injuries.\n\nMany parents from Boulder's family-friendly neighborhoods like Whittier bring their children in for wellness checks, just as they would visit the dentist. We focus on ensuring proper nervous system development, which can affect everything from sleep to immune function. For young athletes in Boulder's competitive soccer and climbing programs, we help prevent overuse injuries and promote balanced growth.",
+        "process": [
+          "Step 1: Thorough history and gentle examination",
+          "Step 2: Extremely light adjustments using fingertip pressure",
+          "Step 3: Parent education on developmental milestones",
+          "Step 4: Age-appropriate movement recommendations"
+        ],
+        "benefits": [
+          "Supports healthy nervous system development",
+          "May ease colic and reflux symptoms",
+          "Helps prevent sports injuries",
+          "Promotes proper spinal growth"
+        ],
+        "faq": [
+          {
+            "question": "Is chiropractic safe for babies?",
+            "answer": "Yes, our techniques for infants are exceptionally gentle - often just light fingertip pressure."
+          },
+          {
+            "question": "How can I tell if my child needs chiropractic care?",
+            "answer": "Signs include favoring one side, difficulty breastfeeding, frequent ear infections, or complaints of growing pains."
+          },
+          {
+            "question": "Can it help with ADHD symptoms?",
+            "answer": "While not a treatment for ADHD, some parents report improved focus and sleep after care."
+          }
+        ]
+      },
+      {
+        "slug": "auto-injury-recovery",
+        "name": "Auto Injury Recovery",
+        "shortDescription": "Comprehensive care for whiplash and other common car accident injuries.",
+        "description": "Even low-speed collisions on Boulder's busy streets like Broadway or 28th can cause significant soft tissue damage. Our auto injury program addresses the delayed symptoms many accident victims experience days or weeks after impact.\n\nWe work closely with local attorneys and insurance providers to document injuries properly. Treatment combines chiropractic adjustments with therapeutic modalities to reduce inflammation and restore range of motion. Many patients don't realize that untreated whiplash can lead to chronic pain years later - we focus on complete recovery to prevent long-term issues.",
+        "process": [
+          "Step 1: Detailed accident history and injury assessment",
+          "Step 2: Development of evidence-based treatment plan",
+          "Step 3: Combination of adjustments and soft tissue therapies",
+          "Step 4: Progressive rehabilitation and documentation for claims"
+        ],
+        "benefits": [
+          "Reduces inflammation and pain",
+          "Restores pre-accident range of motion",
+          "Prevents chronic pain development",
+          "Provides thorough documentation for claims"
+        ],
+        "faq": [
+          {
+            "question": "How soon after an accident should I be evaluated?",
+            "answer": "Immediately, even if you feel fine. Many symptoms appear 24-72 hours post-accident when inflammation sets in."
+          },
+          {
+            "question": "Do you work with insurance companies?",
+            "answer": "Yes, we're experienced in working with auto insurers and provide all necessary documentation."
+          },
+          {
+            "question": "Can old whiplash injuries still be treated?",
+            "answer": "Yes, while earlier intervention is ideal, we can still help chronic whiplash patients find relief."
+          }
+        ]
+      },
+      {
+        "slug": "wellness-care",
+        "name": "Wellness Care",
+        "shortDescription": "Maintenance care to keep your nervous system functioning at its best.",
+        "description": "Just as Boulder residents maintain their bikes and hiking gear, regular chiropractic wellness care helps keep your body performing optimally. Our wellness patients schedule periodic adjustments to maintain spinal health, much like dental cleanings prevent cavities.\n\nThis proactive approach is popular among Boulder's health-conscious community. We focus on detecting small issues before they become problems, helping you avoid pain and maintain your active lifestyle. Whether you're training for the Bolder Boulder or just want to garden without back strain, wellness care can help you feel your best at every age.",
+        "process": [
+          "Step 1: Regular spinal and postural check-ups",
+          "Step 2: Gentle adjustments to correct minor misalignments",
+          "Step 3: Lifestyle and ergonomic recommendations",
+          "Step 4: Personalized maintenance schedule"
+        ],
+        "benefits": [
+          "Maintains joint mobility",
+          "Supports nervous system function",
+          "Enhances overall wellbeing",
+          "Helps prevent degenerative changes"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get wellness adjustments?",
+            "answer": "Frequency varies by individual, but most Boulder wellness patients visit every 4-6 weeks."
+          },
+          {
+            "question": "Is wellness care covered by insurance?",
+            "answer": "Some plans cover maintenance care, though many patients choose affordable cash plans for wellness visits."
+          },
+          {
+            "question": "Can chiropractic care boost immunity?",
+            "answer": "Research suggests proper spinal alignment supports immune function by reducing stress on the nervous system."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Prenatal Chiropractic",
+        "text": "As a physical therapist, I'm particular about bodywork. Dr. Martinez's prenatal care got me through my third trimester sciatica when nothing else helped. She even taught me stretches I could do at Chautauqua while waiting for sunset.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Mark T.",
+        "rating": 5,
+        "service": "Sports Injury Rehabilitation",
+        "text": "After tweaking my back on the First Flatiron, Horizon had me back on the rocks in 3 weeks. Their knowledge of climbing-specific body mechanics is unmatched in Boulder. Now I stop by for maintenance adjustments every month.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Lisa and Dan P.",
+        "rating": 5,
+        "service": "Pediatric Chiropractic",
+        "text": "Our 6-week-old was having trouble breastfeeding and sleeping. One gentle adjustment at Horizon made an immediate difference - she latched properly that night and we all finally got some rest. So grateful we found them.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Raj N.",
+        "rating": 5,
+        "service": "Posture Correction",
+        "text": "Years of coding at Boulder tech startups left me with terrible 'tech neck.' After 2 months at Horizon, my chronic headaches are gone and my standing desk setup actually works now. Their ergonomic advice was spot-on.",
+        "date": "2024-12-05"
+      },
+      {
+        "name": "Emily S.",
+        "rating": 5,
+        "service": "Auto Injury Recovery",
+        "text": "When I got rear-ended on Canyon Blvd, I didn't think it was serious until the whiplash set in days later. Horizon's detailed documentation helped my claim, and their treatment got me back to teaching yoga within weeks.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Wellness Care",
+        "text": "As a 60-year-old still hiking the Flatirons weekly, regular adjustments at Horizon keep me moving without pain. They understand active aging better than any clinic I've tried in Boulder.",
+        "date": "2024-10-17"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boulder Chiropractor | Horizon Chiropractor",
+        "description": "Horizon Chiropractor provides personalized chiropractic care in Boulder, CO. Relief from back pain, sports injuries, and more. Schedule your consultation today."
+      },
+      "about": {
+        "title": "About Horizon Chiropractor | Boulder Chiropractic Care",
+        "description": "Learn about Boulder's trusted chiropractic clinic. Horizon Chiropractor combines expertise with personalized care for optimal spinal health."
+      },
+      "services": {
+        "title": "Chiropractic Services in Boulder | Horizon Chiropractor",
+        "description": "Comprehensive chiropractic services in Boulder including spinal adjustments, sports injury rehab, prenatal care, and pediatric chiropractic."
+      },
+      "contact": {
+        "title": "Contact Horizon Chiropractor | Boulder Chiropractor",
+        "description": "Schedule an appointment with Horizon Chiropractor in Boulder, CO. We're here to help you achieve better health through chiropractic care."
+      },
+      "reviews": {
+        "title": "Patient Reviews | Horizon Chiropractor Boulder",
+        "description": "Read what Boulder patients say about their experiences with Horizon Chiropractor's caring, effective chiropractic treatments."
+      },
+      "service-areas": {
+        "title": "Service Areas | Horizon Chiropractor Boulder",
+        "description": "Horizon Chiropractor serves Boulder and surrounding Colorado communities with expert chiropractic care tailored to local needs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Boulder",
+        "slug": "boulder-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor is proud to serve the vibrant community of Boulder, CO. Our chiropractic care focuses on helping active residents maintain optimal spinal health and mobility. Whether you're a student, athlete, or professional, we provide personalized treatments to address your unique needs.\n\nBoulder's outdoor lifestyle demands peak physical performance. Our team specializes in sports chiropractic and injury prevention to keep you enjoying the trails, slopes, and climbing gyms. We understand the specific demands of Boulder's fitness culture and tailor our care accordingly.",
+        "localContext": "Boulder is known for its outdoor recreation, university culture, and health-conscious community.",
+        "nearbyAreas": [
+          "Louisville",
+          "Superior",
+          "Nederland"
+        ]
+      },
+      {
+        "city": "Louisville",
+        "slug": "louisville-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor extends quality care to Louisville families and professionals. Our gentle techniques help relieve the stresses of daily life, from desk work to weekend sports. We're committed to helping Louisville residents achieve better posture, mobility, and overall wellness.\n\nMany Louisville patients visit us for help with back pain, headaches, and joint issues. Our office provides a welcoming environment where patients of all ages can receive compassionate chiropractic care. We take time to understand each patient's lifestyle and health goals.",
+        "localContext": "Louisville combines small-town charm with modern amenities and excellent schools.",
+        "nearbyAreas": [
+          "Lafayette",
+          "Boulder",
+          "Superior"
+        ]
+      },
+      {
+        "city": "Lafayette",
+        "slug": "lafayette-co",
+        "state": "CO",
+        "content": "Serving Lafayette since 2015, Horizon Chiropractor helps local residents overcome pain and improve function. Our evidence-based approach addresses common issues like back pain, sciatica, and neck stiffness. We work with patients to develop sustainable wellness plans that fit their Lafayette lifestyle.\n\nMany of our Lafayette patients are active in community sports leagues or enjoy the nearby open spaces. We specialize in helping athletes and outdoor enthusiasts prevent injuries and recover faster. Our team stays current with the latest chiropractic techniques to best serve our community.",
+        "localContext": "Lafayette offers a thriving arts scene and easy access to outdoor recreation.",
+        "nearbyAreas": [
+          "Louisville",
+          "Boulder",
+          "Erie"
+        ]
+      },
+      {
+        "city": "Longmont",
+        "slug": "longmont-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor provides comprehensive care for Longmont residents seeking natural pain relief. Our gentle adjustments help patients find relief from chronic pain, improve mobility, and enhance overall wellbeing. We serve patients of all ages, from children to seniors.\n\nLongmont's growing community deserves accessible chiropractic care. We focus on educating patients about spinal health and preventive care. Whether you're recovering from an injury or maintaining wellness, our personalized approach delivers results.",
+        "localContext": "Longmont combines historic charm with modern growth and excellent community amenities.",
+        "nearbyAreas": [
+          "Boulder",
+          "Loveland",
+          "Frederick"
+        ]
+      },
+      {
+        "city": "Erie",
+        "slug": "erie-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor is proud to serve the Erie community with high-quality chiropractic services. Our family-friendly practice helps Erie residents achieve better health through natural, drug-free care. We specialize in addressing back pain, headaches, and mobility issues common in active families.\n\nErie's rapid growth means more residents need access to quality healthcare. We provide personalized treatment plans that consider each patient's unique needs and goals. Our team stays involved in the Erie community through local events and health education.",
+        "localContext": "Erie is one of Colorado's fastest-growing communities with excellent schools and parks.",
+        "nearbyAreas": [
+          "Lafayette",
+          "Longmont",
+          "Superior"
+        ]
+      },
+      {
+        "city": "Superior",
+        "slug": "superior-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor offers expert care to Superior residents seeking natural pain relief and wellness solutions. Our techniques help address common issues from sedentary work to sports injuries. We take a whole-body approach to help Superior patients achieve lasting results.\n\nSuperior's active community deserves chiropractic care that understands their lifestyle. Whether you're a weekend warrior or dealing with work-related strain, we can help. Our office provides a comfortable environment where patients feel heard and cared for.",
+        "localContext": "Superior boasts excellent trails, parks, and a strong sense of community.",
+        "nearbyAreas": [
+          "Boulder",
+          "Louisville",
+          "Broomfield"
+        ]
+      },
+      {
+        "city": "Nederland",
+        "slug": "nederland-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor brings quality chiropractic care to Nederland's mountain community. We understand the unique physical demands of high-altitude living and outdoor activities. Our treatments help Nederland residents stay active and pain-free in their rugged environment.\n\nFrom skiers to musicians, we serve all members of the Nederland community. Our gentle techniques help relieve pain caused by outdoor activities, manual labor, and mountain driving. We're committed to making chiropractic care accessible to this special mountain town.",
+        "localContext": "Nederland is a quirky mountain town with strong arts and outdoor cultures.",
+        "nearbyAreas": [
+          "Boulder",
+          "Black Hawk",
+          "Ward"
+        ]
+      },
+      {
+        "city": "Broomfield",
+        "slug": "broomfield-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor serves Broomfield residents with personalized chiropractic solutions. Our evidence-based approach helps patients find relief from back pain, joint issues, and other musculoskeletal problems. We work with patients to develop sustainable wellness strategies.\n\nBroomfield's central location means many residents commute or work in office settings. We specialize in addressing posture-related issues and repetitive stress injuries. Our team stays current with the latest techniques to best serve our Broomfield patients.",
+        "localContext": "Broomfield offers a strategic location between Denver and Boulder with excellent amenities.",
+        "nearbyAreas": [
+          "Superior",
+          "Westminster",
+          "Louisville"
+        ]
+      },
+      {
+        "city": "Lyons",
+        "slug": "lyons-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor provides compassionate care to the Lyons community. Our gentle techniques help residents maintain active lifestyles despite the physical demands of mountain living. We specialize in helping musicians, artists, and outdoor enthusiasts stay healthy.\n\nLyons' unique character deserves specialized chiropractic care. We understand the challenges of flood recovery and the physical toll of creative work. Our team is committed to supporting Lyons' vibrant community through quality healthcare services.",
+        "localContext": "Lyons is known as the Double Gateway to the Rockies with a strong music scene.",
+        "nearbyAreas": [
+          "Longmont",
+          "Boulder",
+          "Estes Park"
+        ]
+      },
+      {
+        "city": "Golden",
+        "slug": "golden-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor extends our services to Golden's active community. Our treatments help outdoor enthusiasts, students, and professionals maintain spinal health. We specialize in addressing the physical demands of climbing, biking, and other mountain sports.\n\nGolden's historic charm and outdoor culture create unique healthcare needs. We provide personalized care that respects each patient's lifestyle and goals. Our team stays involved in Golden's health and wellness community through local partnerships.",
+        "localContext": "Golden combines Western heritage with outdoor recreation and academic institutions.",
+        "nearbyAreas": [
+          "Lakewood",
+          "Arvada",
+          "Boulder"
+        ]
+      },
+      {
+        "city": "Arvada",
+        "slug": "arvada-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor is pleased to serve the Arvada community with comprehensive chiropractic care. Our treatments help residents find relief from chronic pain, improve mobility, and enhance overall wellness. We take time to understand each patient's unique health journey.\n\nArvada's mix of historic neighborhoods and new developments creates diverse healthcare needs. We provide family-friendly care that addresses issues from childhood to senior years. Our team stays current with the latest techniques to best serve our Arvada patients.",
+        "localContext": "Arvada offers a blend of historic charm and modern amenities with easy access to Denver.",
+        "nearbyAreas": [
+          "Westminster",
+          "Golden",
+          "Broomfield"
+        ]
+      },
+      {
+        "city": "Westminster",
+        "slug": "westminster-co",
+        "state": "CO",
+        "content": "Horizon Chiropractor provides quality care to Westminster residents seeking natural pain relief. Our gentle adjustments help patients improve posture, reduce pain, and enhance overall function. We serve patients of all ages with compassionate, personalized care.\n\nWestminster's growing community deserves accessible chiropractic services. We focus on preventive care and patient education to help residents maintain long-term wellness. Whether you're recovering from an injury or maintaining health, our approach delivers results.",
+        "localContext": "Westminster is a thriving suburb with excellent parks and community resources.",
+        "nearbyAreas": [
+          "Broomfield",
+          "Arvada",
+          "Superior"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "spinal-adjustments": "/images/service-spinal-adjustments.webp",
+      "sports-injury-rehab": "/images/service-sports-injury-rehab.webp",
+      "prenatal-chiropractic": "/images/service-prenatal-chiropractic.webp",
+      "posture-correction": "/images/service-posture-correction.webp",
+      "pediatric-chiropractic": "/images/service-pediatric-chiropractic.webp",
+      "auto-injury-recovery": "/images/service-auto-injury-recovery.webp",
+      "wellness-care": "/images/service-wellness-care.webp"
+    },
+    "servicesResponsive": {
+      "spinal-adjustments": {
+        "src": "/images/service-spinal-adjustments.webp",
+        "srcset": "/images/service-spinal-adjustments-400w.webp 400w, /images/service-spinal-adjustments-800w.webp 800w, /images/service-spinal-adjustments-1200w.webp 1200w, /images/service-spinal-adjustments.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sports-injury-rehab": {
+        "src": "/images/service-sports-injury-rehab.webp",
+        "srcset": "/images/service-sports-injury-rehab-400w.webp 400w, /images/service-sports-injury-rehab-800w.webp 800w, /images/service-sports-injury-rehab-1200w.webp 1200w, /images/service-sports-injury-rehab.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "prenatal-chiropractic": {
+        "src": "/images/service-prenatal-chiropractic.webp",
+        "srcset": "/images/service-prenatal-chiropractic-400w.webp 400w, /images/service-prenatal-chiropractic-800w.webp 800w, /images/service-prenatal-chiropractic-1200w.webp 1200w, /images/service-prenatal-chiropractic.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "posture-correction": {
+        "src": "/images/service-posture-correction.webp",
+        "srcset": "/images/service-posture-correction-400w.webp 400w, /images/service-posture-correction-800w.webp 800w, /images/service-posture-correction-1200w.webp 1200w, /images/service-posture-correction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pediatric-chiropractic": {
+        "src": "/images/service-pediatric-chiropractic.webp",
+        "srcset": "/images/service-pediatric-chiropractic-400w.webp 400w, /images/service-pediatric-chiropractic-800w.webp 800w, /images/service-pediatric-chiropractic-1200w.webp 1200w, /images/service-pediatric-chiropractic.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "auto-injury-recovery": {
+        "src": "/images/service-auto-injury-recovery.webp",
+        "srcset": "/images/service-auto-injury-recovery-400w.webp 400w, /images/service-auto-injury-recovery-800w.webp 800w, /images/service-auto-injury-recovery-1200w.webp 1200w, /images/service-auto-injury-recovery.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "wellness-care": {
+        "src": "/images/service-wellness-care.webp",
+        "srcset": "/images/service-wellness-care-400w.webp 400w, /images/service-wellness-care-800w.webp 800w, /images/service-wellness-care-1200w.webp 1200w, /images/service-wellness-care.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
